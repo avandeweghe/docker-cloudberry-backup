@@ -84,11 +84,3 @@ VOLUME ["/storage"]
 #   - 43210: CloudBerry Backup web interface (HTTP).
 #   - 43211: CloudBerry Backup web interface (HTTPs).
 EXPOSE 43210 43211
-
-# Metadata.
-LABEL \
-      org.label-schema.name="cloudberry-backup" \
-      org.label-schema.description="Docker container for CloudBerry Backup" \
-      org.label-schema.version="0.1.0" \
-      org.label-schema.vcs-url="https://github.com/jlesage/docker-cloudberry-backup" \
-      org.label-schema.schema-version="1.0"
