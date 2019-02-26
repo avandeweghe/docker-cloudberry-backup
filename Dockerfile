@@ -8,7 +8,7 @@
 FROM jlesage/baseimage-gui:alpine-3.8-glibc-v3.5.1
 
 # Define software download URLs.
-ARG CLOUDBERRYBACKUP_URL=https://github.com/avandeweghe/docker-cloudberry-backup/raw/master/ubuntu14_CloudBerryLab_CloudBerryBackup_v2.7.0.28_20190115120029_c506111.deb
+ARG CLOUDBERRYBACKUP_URL=https://github.com/avandeweghe/docker-cloudberry-backup/raw/master/ubuntu14_CloudBerryLab_CloudBerryBackup_v2.8.0.35_20190223034507_c528593.deb
 
 # Define working directory.
 WORKDIR /tmp
